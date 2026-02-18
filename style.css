@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: #111827;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+.card {
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 10px;
+}
